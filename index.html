@@ -1,0 +1,22 @@
+<head>
+<link href="style.scss" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<canvas id="canvas"></canvas>
+
+<div>
+  <label><input type="radio" name="dragmode" onchange="setMode(true)" checked /> Pull</label>
+  <label><input type="radio" name="dragmode" onchange="setMode(false)" /> Cut</label>
+  <label><input type="checkbox" onchange="zeroG()" /> Zero G</label>
+  <p>
+    <button onclick="reset()">Reset</button>
+    <!--button onclick="zeroG()">Zero G!</button-->
+  </p>
+</div>
+
+<script type="text/javascript" src="drag-tracker.js"></script>
+
+<script type="text/javascript" src="Cloth.js"></script>
+
+</body>
