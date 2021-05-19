@@ -1,5 +1,8 @@
 <head>
 <link href="style.scss" rel="stylesheet" type="text/css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
 </head>
 <body>
 
@@ -13,10 +16,11 @@
     <button onclick="reset()">Reset</button>
     <!--button onclick="zeroG()">Zero G!</button-->
   </p>
+
+  <p id='status'>Loading model...</p>
+  <script src="Cloth.js"></script>
 </div>
 
-<script type="text/javascript" src="drag-tracker.js"></script>
 
-<script type="text/javascript" src="Cloth.js"></script>
 
 </body>
